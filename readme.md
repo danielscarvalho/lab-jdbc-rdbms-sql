@@ -22,6 +22,8 @@
    - Update ➽ UPDATE (PUT)
    - Delete ➽ DELETE (DELETE)
 
+Risco: firewall pode bloquear acesso ao DB pela Internet...
+
 ### Referências
 
 - https://jdbc.postgresql.org/documentation/
