@@ -1,0 +1,2 @@
+export neon_postgresql_url="jdbc:postgresql://ep-silent-violet-a26temai-pooler.eu-central-1.aws.neon.tech/pucsp?user=pucsp-dba&password=xxxxxxx&sslmode=require&channelBinding=require"
+java -classpath ./javalibs/* NeonPostgreSQL.java

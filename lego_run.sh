@@ -1,0 +1,2 @@
+export neon_postgresql_url="jdbc:postgresql://ep-silent-violet-a26temai-pooler.eu-central-1.aws.neon.tech/pucsp?user=pucsp-dba&password=npg_rJTwnSs80ogD&sslmode=require&channelBinding=require"
+java -classpath ./javalibs/* LegoSets.java
