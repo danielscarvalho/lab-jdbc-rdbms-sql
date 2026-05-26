@@ -44,7 +44,7 @@ public class NeonPostgreSQL {
         } catch (Exception e) {
             System.err.println("Erro ao conectar ou executar query: " + e.getMessage());
             e.printStackTrace();
-        } finnaly {
+        } finally {
            stmt.close();
            conn.close();
         }//try
