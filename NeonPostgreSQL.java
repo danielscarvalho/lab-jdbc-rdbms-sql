@@ -4,6 +4,8 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 // JDBC Driver PostgreSQL: https://jdbc.postgresql.org/download/
+// https://neon.com/ - PostgreSQL Neon Cloud
+// https://jdbc.postgresql.org/documentation/
 
 public class NeonPostgreSQL {
 
@@ -42,6 +44,9 @@ public class NeonPostgreSQL {
         } catch (Exception e) {
             System.err.println("Erro ao conectar ou executar query: " + e.getMessage());
             e.printStackTrace();
-        } //try
+        } finnaly {
+           stmt.close();
+           conn.close();
+        }//try
     } // main
 } // NeonPostgreSQL
